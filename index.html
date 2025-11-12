@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-section">
+                <h3>HOME</h3>
+                <div class="scorebox">
+                    <p id="home-score">0</p>
+                </div>
+                <div class="increment-area">
+                    <button class="increment-btn" id="home-btn-1" onclick="incrementHome1()">+ 1</button>
+                    <button class="increment-btn" id="home-btn-2" onclick="incrementHome2()">+2</button>
+                    <button class="increment-btn" id="home-btn-3" onclick="incrementHome3()">+3</button>
+                </div>
+            </div>
+            <div class="mid-area">
+                <div class="timer-section">
+                    <p id="timer">00:00</p>
+                </div>
+                <div class="btn-area">
+                    <button class="ctrl-btn" id="start-btn" onclick="startGame()">Start</button>
+                    <button class="ctrl-btn" id="stop-btn" onclick="stopGame()">Stop</button>
+                    <button class="ctrl-btn" id="reset-btn" onclick="resetGame()">Reset</button>
+                </div>
+            </div>
+            
+            <div class="guest-section">
+                <h3>GUEST</h3>
+                <div class="scorebox">
+                    <p id="guest-score">0</p>
+                </div>
+                <div class="increment-area">
+                    <button class="increment-btn" id="guest-btn-1" onclick="incrementGuest1()">+ 1</button>
+                    <button class="increment-btn" id="guest-btn-2" onclick="incrementGuest2()">+2</button>
+                    <button class="increment-btn" id="guest-btn-3" onclick="incrementGuest3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

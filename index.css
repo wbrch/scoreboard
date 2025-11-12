@@ -1,0 +1,118 @@
+@font-face {
+  font-family: CursedTimer; /* set name */
+  src: url(CursedTimerUlil-Aznm.ttf); /* url of the font */
+}
+
+body {
+    margin: 0;
+    background-image: url(led_screen_bcg.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.scorebox {
+    background-color: black;
+    border: 2px solid whitesmoke;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+    margin-bottom: 20%;
+    margin-top: -20px;
+}
+
+.scorebox p {
+    padding-top: 10px;
+    font-size: 3.8rem;
+    color: red;
+    font-family: CursedTimer;
+}
+
+.increment-area {
+    display: flex;
+    gap: 10px;
+}
+
+.increment-btn {
+    padding-top: 3px;
+    width: 45px;
+    height: 45px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    border: 1px solid #A7F3D0;
+    box-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+    font-family: CursedTimer;
+}
+
+.timer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: red;
+    font-size: 1.3rem;
+    border: 2px solid #A7F3D0;
+    border-radius: 5px;
+    width: 25vw;
+    height: 10vh;
+    margin-top: 20px;
+}
+
+.timer-section p {
+    font-family: CursedTimer;
+    padding-top: 3px;
+}
+
+.mid-area {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-area {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+#stop-btn {
+    background-color: #9F1239;
+}
+
+#reset-btn {
+    background-color: #FBBF24;
+}
+
+.ctrl-btn {
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    width: 20vw;
+    height: 7vh;
+    background-color: #10B981;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+}
